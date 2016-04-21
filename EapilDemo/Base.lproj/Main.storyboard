@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hYH-j3-XN7">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
@@ -148,13 +147,10 @@ http://192.168.1.101:8899</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TWE-HI-cs4">
-                                        <rect key="frame" x="115" y="6.5" width="144" height="31"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="140" id="x4s-h1-bBA"/>
-                                        </constraints>
+                                        <rect key="frame" x="115" y="6.5" width="132" height="31"/>
                                     </slider>
                                 </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="SFb-xo-NRa" firstAttribute="leading" secondItem="uZx-hB-mrG" secondAttribute="trailing" constant="8" id="0Za-Mh-ZVO"/>
                                     <constraint firstItem="ejL-7E-nQi" firstAttribute="height" secondItem="lGO-IX-xzM" secondAttribute="height" id="BtT-4Y-N7g"/>
@@ -170,6 +166,7 @@ http://192.168.1.101:8899</string>
                                     <constraint firstItem="TWE-HI-cs4" firstAttribute="centerY" secondItem="SFb-xo-NRa" secondAttribute="centerY" id="fE3-2p-ddW"/>
                                     <constraint firstItem="cy4-DS-UYR" firstAttribute="centerY" secondItem="9gb-Ny-HeY" secondAttribute="centerY" id="hub-2c-FqJ"/>
                                     <constraint firstItem="TWE-HI-cs4" firstAttribute="leading" secondItem="SFb-xo-NRa" secondAttribute="trailing" constant="8" id="lKM-bE-wLy"/>
+                                    <constraint firstItem="lGO-IX-xzM" firstAttribute="leading" secondItem="TWE-HI-cs4" secondAttribute="trailing" constant="8" id="oCU-Aa-5c4"/>
                                     <constraint firstItem="sdK-RV-SQm" firstAttribute="leading" secondItem="9gb-Ny-HeY" secondAttribute="trailing" constant="10" id="oTS-xZ-HIj"/>
                                     <constraint firstAttribute="trailing" secondItem="ejL-7E-nQi" secondAttribute="trailing" constant="8" id="qhG-bC-nLD"/>
                                     <constraint firstItem="uZx-hB-mrG" firstAttribute="centerY" secondItem="lGO-IX-xzM" secondAttribute="centerY" id="ral-Kr-0ib"/>
